@@ -134,6 +134,3 @@ GitHub: https://github.com/Shivang9983
 
 ---
 
-## License
-
-This project is developed for educational and learning purposes.
