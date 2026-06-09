@@ -1,28 +1,3 @@
-
-const themeBtn =
-    document.getElementById("themeBtn");
-
-themeBtn.addEventListener("click", () => {
-
-    document.body.classList.toggle("dark");
-
-    if (
-        document.body.classList.contains("dark")
-    ) {
-
-        themeBtn.innerHTML =
-            "☀";
-
-    } else {
-
-        themeBtn.innerHTML =
-            '<i class="fa-solid fa-moon"></i>';
-    }
-});
-
-
-
-
 const apiKey = "983c5946129d7cd0b2802231c997a366";
 
 
@@ -58,9 +33,6 @@ function displayWeather(data) {
     sunset.textContent =
         new Date(data.sys.sunset * 1000).toLocaleTimeString();
 }
-
-
-
 
 
 async function getWeather(city) {
