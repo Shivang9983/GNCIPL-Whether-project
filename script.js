@@ -85,7 +85,7 @@ themeBtn.addEventListener("click", () => {
     ) {
 
         themeBtn.innerHTML =
-            "☀";
+            "👻";
 
     } else {
 
